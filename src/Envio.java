@@ -3,12 +3,13 @@ public class Envio {
   String tipo;
   Integer precio;
 
-  Envio(String tipo, Integer precio) {
+  //Poniendo publica la funcion
+  public Envio(String tipo, Integer precio) {
     this.tipo = tipo;
     this.precio = precio;
   }
 
-  String getTipoEnvio() {
+  public String getTipoEnvio() {
     return this.tipo;
   }
 
